@@ -1,0 +1,6 @@
+# or operator
+#if atleast one arguments is true then result is true
+a = True
+b = False
+print(a or b)  # Output: True
+

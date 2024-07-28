@@ -1,0 +1,5 @@
+# not operator 
+# complement if true it convert into false
+a = True
+print(not a)  # Output: False
+

@@ -1,0 +1,6 @@
+# and operation 
+# both arguments are True then only result is True
+a = True
+b = False
+print(a and b)  # Output: False
+

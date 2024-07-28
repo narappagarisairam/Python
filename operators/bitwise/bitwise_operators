@@ -1,0 +1,38 @@
+# bitwise and & operator
+
+a = 60  # 60 in binary is 0011 1100
+b = 13  # 13 in binary is 0000 1101
+result = a & b
+print(result)  # Output: 12 (binary 0000 1100)
+
+# bitwise or | operator
+
+a = 60  # 60 in binary is 0011 1100
+b = 13  # 13 in binary is 0000 1101
+result = a | b
+print(result)  # Output: 61 (binary 0011 1101)
+
+#bitwise xor ^ operator
+
+a = 60  # 60 in binary is 0011 1100
+b = 13  # 13 in binary is 0000 1101
+result = a ^ b
+print(result)  # Output: 49 (binary 0011 0001)
+
+#bitwise not ! operator
+
+a = 60  # 60 in binary is 0011 1100
+result = ~a
+print(result)  # Output: -61 (binary 1100 0011 in two's complement form)
+
+#bitwise leftshift << operator
+a = 60  # 60 in binary is 0011 1100
+result = a << 2
+print(result)  # Output: 240 (binary 1111 0000)
+
+#bitwise rightshift >> operator
+
+a = 60  # 60 in binary is 0011 1100
+result = a >> 2
+print(result)  # Output: 15 (binary 0000 1111)
+
