@@ -1,0 +1,36 @@
+#recustion function means call funtion by itself is called recursition
+def fact(n):
+    if n==0:
+        return 1  #termination condition compalsory otherwise it will go infinite loop
+    else:
+        return(n*fact(n-1))
+n=int(input("enter the value "))
+result=fact(n)
+print(result)
+output:
+    n=6
+    720
+#recursition using power function
+def pow(x,y):
+    if y==0:
+        return 1
+    else:
+        return(x*pow(x,y-1))
+result=pow(3,4)
+print(result)
+#output
+81
+#fibaconic series using recurstion
+def fib(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return(fib(n-1)+fib(n-2))
+for i in range(10):
+        k=fib(i)
+        print(k)
+#output
+0 1 1 2 3 5  8 13
+
